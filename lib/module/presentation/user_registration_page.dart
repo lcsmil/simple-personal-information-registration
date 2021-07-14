@@ -186,7 +186,7 @@ setListData(String key, String value) async {
 Future<void> _showDialog(BuildContext context) async {
   return showDialog<void>(
     context: context,
-    barrierDismissible: false, // user must tap button!
+    barrierDismissible: false,
     builder: (BuildContext context) {
       return AlertDialog(
         title: const Text('Cancelar'),
